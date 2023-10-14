@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s;
+  background-color: #2E86AB; /* Cool blue background color */
+  color: #FFFFFF; /* White text color */
+}
+
+.big-rounded-box {
+  border-radius: 20px;
+  background-color: #5E60CE; /* Cool purple background color */
+  padding: 100px;
+  transition: background-color 0.5s;
+}
+
+.color-squares-visible {
+  background-color: #41A0AC; /* Cool teal background color */
+}
+
+h1 {
+  padding-top: 10px;
+  color: #2E86AB; /* Match the background color for text contrast */
+}
+
+.color-square {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1.5px solid #000000; /* Black border */
+  border-radius: 10px;
+  background-color: #C3D7E3; /* Light cool blue */
+}
+
+.color-squares {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #5E60CE; /* Match the background color of .big-rounded-box */
+  color: #FFFFFF; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2E86AB; /* Hover color for the button */
+}
